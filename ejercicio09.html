@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Galería de Imágenes</title>
+    <link rel="stylesheet" href="lightbox/lightbox.min.css">
+    <style>
+        /* Estilos adicionales para las imágenes y los contenedores */
+        .galeria {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .imagen-container {
+            width: 200px;
+            height: 150px;
+            border: 2px solid #007bff; /* Borde azul */
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        .galeria-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="galeria">
+        <div class="imagen-container">
+            <a href="images/Imagen1.png" data-lightbox="galeria"><img src="images/Imagen1.png" alt="Imagen 1" class="galeria-img"></a>
+        </div>
+        <div class="imagen-container">
+            <a href="images/Imagen2.png" data-lightbox="galeria"><img src="images/Imagen2.png" alt="Imagen 2" class="galeria-img"></a>
+        </div>
+        <div class="imagen-container">
+            <a href="images/Imagen3.png" data-lightbox="galeria"><img src="images/Imagen3.png" alt="Imagen 3" class="galeria-img"></a>
+        </div>
+    </div>
+
+    <script src="lightbox/lightbox.min.js"></script>
+</body>
+</html>
