@@ -1,0 +1,18 @@
+body {
+    background-color: #f0f0f0; /* Cambia este valor al color de fondo que prefieras */
+    font-family: Arial, sans-serif;
+}
+
+.biografia {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff; /* Cambia este valor al color de fuente que prefieras */
+    font-size: 36px; /* Cambia este valor al tamaño de fuente que prefieras */
+}
