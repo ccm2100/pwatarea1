@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja con Slider</title>
+    <style>
+        .caja {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #007bff; /* Borde de color azul */
+            background-color: #f0f0f0; /* Fondo gris claro */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slider {
+            width: 80%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <h2>¡Bienvenido!</h2>
+        <p>Desliza para explorar.</p>
+        <input type="range" class="slider" min="0" max="100" value="50" step="1">
+    </div>
+</body>
+</html>
