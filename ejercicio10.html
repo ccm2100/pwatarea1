@@ -16,6 +16,18 @@
         .mensaje {
             text-align: center;
         }
+
+        .mensaje img {
+            width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+            max-width: 400px; /* Máximo ancho de la imagen */
+        }
+
+        /* Media query para pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .mensaje img {
+                max-width: 80%; /* Reducir el tamaño de la imagen en pantallas más pequeñas */
+            }
+        }
     </style>
 </head>
 <body>
